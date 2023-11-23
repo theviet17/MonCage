@@ -22,8 +22,8 @@ public class Rotate : MonoBehaviour
             mouseY = Input.GetAxis("Mouse Y") * rotateSpeed;
             mouseX = mouseX*a;
             mouseY = mouseY * b;
-            transform.RotateAround(Vector3.down,mouseX);
-            transform.RotateAround(Vector3.right,mouseY);
+            transform.Rotate(Vector3.down,mouseX);
+            transform.Rotate(Vector3.forward,mouseY);
         }
        
     }

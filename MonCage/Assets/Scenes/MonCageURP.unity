@@ -4082,11 +4082,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac9ecd47351c413e9f34499f7a1f5ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 0.3
+  rotateSpeed: 8
   mouseX: 0
   mouseY: 0
-  a: -1.5
-  b: -0.1
+  a: -1
+  b: 1
 --- !u!65 &1145229565
 BoxCollider:
   m_ObjectHideFlags: 0

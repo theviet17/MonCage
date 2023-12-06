@@ -28,3 +28,6 @@ public class Rotate : MonoBehaviour
        
     }
 }
+// Note:
+//- Cảm giác khi xoay cam chưa mượt
+//- Xoay các cảnh riêng biệt
